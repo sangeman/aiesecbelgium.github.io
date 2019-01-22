@@ -1,0 +1,356 @@
+body{
+	font-family: lato;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: #fff;
+	color: #000;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+#logo img{
+	float: left;
+	width: 70px
+}
+
+header #logo{
+	float: left;
+}
+
+header a{
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header nav{
+	float: right;
+	padding-bottom: 20px;
+
+}
+
+header a:hover{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header nav a#openup {
+	display: none;
+
+}
+
+#slider{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/belgium.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider h1{
+	margin-top: 100px;
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+#slider h3{
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+
+#slider1{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/travel.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider1 h1{
+	margin-top: 130px;
+	font-size: 45px;
+}
+
+#slider1 span{
+	font-family: quentin;
+}
+
+#slider2{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/slider1.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider2 h1{
+	margin-top: 130px;
+	font-size: 45px;
+}
+
+#slider2 span{
+	font-family: quentin;
+}
+
+#slider3{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/finance.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider3 h1{
+	margin-top: 130px;
+	font-size: 45px;
+}
+
+#slider3 span{
+	font-family: quentin;
+}
+
+#slider4{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/marketing.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider4 h1{
+	margin-top: 130px;
+	font-size: 45px;
+}
+
+#slider4 span{
+	font-family: quentin;
+}
+
+#slider8{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/gt.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider8 h1{
+	margin-top: 130px;
+	font-size: 45px;
+}
+
+#slider8 span{
+	font-family: quentin;
+}
+
+#slider7{
+	min-height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/picture.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+#slider7 h1{
+	margin-top: 130px;
+	font-size: 45px;
+}
+
+#slider7 span{
+	font-family: quentin;
+}
+
+
+
+.welcome{
+	text-align: center;
+}
+
+.welcome h3{
+	text-align: center;
+}
+
+.Market{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.Market1{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+#subproducts{
+	text-align: center;
+}
+
+#subproducts h1{
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+#subproducts img{
+	width: 40%;
+}
+
+#products{
+	text-align: center;
+}
+
+#products h1{
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+#products img{
+	width: 20%;
+}
+
+
+
+article#main-col{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+article#main-col img{
+	width: 50%;
+	background-position: center;
+}
+
+.new h3{
+	text-align: center;
+	font-size: 27px;
+}
+
+.what1{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 40px;
+	margin-left: 20px;
+	grid-column-gap: 20em;	
+	grid-row-gap: 2em;
+}
+
+.btn{
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	border-radius: 15px;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+.btn:hover{
+	background-color: #e8491d;
+}
+
+
+
+.btn:hover{
+	background-color: #e8491d;
+}
+
+#what{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+#way{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#aiesechub{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+footer{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	height: 70px;
+	padding-top: 20px;
+	margin: 0;
+
+}
+
+@media screen and (max-width: 580px) {
+ 
+  nav {
+    height: auto;
+    border-bottom: 0;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav li {
+    width: 100%;
+    float: right;
+    position: relative;
+  }
+  nav a {
+    text-align: right;
+    width: 100%;
+    text-indent: 25px;
+   
+    border-bottom: 1px solid #555;
+  }
+ 
+  header nav a#openup:after {
+    content: "|||";
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari and Chrome */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+  }
+  header nav a#openup {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+}
+
